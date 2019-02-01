@@ -4,7 +4,7 @@ VxWorks-like lightweight message queue for Windows
 The tinymq implements the functions about a message queue which is similar with
 the Wind River VxWorks kernel message queue.
 
-The memory architecture for tinymq message queue:
+The memory layout for tinymq message queue:
 <pre><code>
 ----------------   -----------------------------------------------------------
 | local memory |-->|                     shared memory                       |
